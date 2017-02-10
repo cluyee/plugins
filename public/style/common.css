@@ -1,0 +1,36 @@
+/* 
+* author: chenliuyi
+* date: 2017/01/25
+*/
+body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,input,textarea,img,th,td,a{ margin:0; padding:0;}
+table{ border-collapse:collapse;border-spacing:0;}
+fieldset,img{ border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{ font-style:normal;font-weight:normal;}
+input,select,img{ vertical-align:middle;}
+input,select{ outline:none;}
+ul,ol{ list-style:none; display:block;}
+li {list-style-type: none;}
+caption,th{ text-align:left;}
+legend{ display:none;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight: normal;}
+a{ text-decoration:none; cursor:pointer;}
+a:active,a:focus{ -moz-outline:none; ie-dummy:expression(this.hideFoucus=true);}
+q:before, q:after{ content:"";}
+
+/*common*/
+.fl{ float: left;}
+.fr{ float: right;}
+.fl,.fr{ *display: inline; *zoom:1;}
+/*清除浮动*/
+.clearfix:after{ content: ""; height: 0; visibility: hidden; display: block; clear: both;}
+.clearfix{ zoom:1;}
+.clear{ clear:both; height: 0;overflow: hidden;}
+.hidden{ display:none;}
+.block{ display:block;}
+
+body {
+	background: #fff;
+	font-size: 14px;
+	font-family: 'Microsoft Yahei';
+	color: #333;
+}
